@@ -1,0 +1,16 @@
+#x{
+    display: flex;
+    float: right;
+}
+ul{
+    background-color: brown;
+    padding: 10px;
+}
+#agregar{
+    display: block;
+    align-items: center;
+}
+#top{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

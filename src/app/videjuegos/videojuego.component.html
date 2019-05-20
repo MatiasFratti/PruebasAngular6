@@ -1,0 +1,16 @@
+<br/>
+<div class="form-group">
+   <input class="form-control" type="text" #newJuego>     
+  
+</div>
+<div class="form-group">
+    
+     <button id="agregar" class="btn btn-danger btn-block" (click)="Agregar(newJuego)">Agregar</button> 
+ </div>
+
+<h1 id="top">{{top}}</h1>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let title of titulo">
+        {{title}}<span id="x"><button class="btn btn-danger" (click)="Eliminar(title)">x</button></span>
+    </li>
+</ul>
